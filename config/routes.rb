@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'test2/test_view1'
+
+  get 'test2/test_view2'
+
+  get 'test/test_view1'
+
+  get 'test/test_view2'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
